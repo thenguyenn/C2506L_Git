@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.countainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    flex: 1 1 calc(25% - 20px);
+    text-align: center;
+    padding: 20px;
+    background-color: cadetblue;
+}
